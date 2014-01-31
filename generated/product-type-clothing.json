@@ -23,15 +23,21 @@
                 "en": ""
             },
             "type": {
-                "name": "enum",
+                "name": "lenum",
                 "values": [
                     {
                         "key": "YES",
-                        "label": ""
+                        "label": {
+                            "en": "Yes",
+                            "de": "Ja"
+                        }
                     },
                     {
                         "key": "NO",
-                        "label": ""
+                        "label": {
+                            "en": "No",
+                            "de": "Nein"
+                        }
                     }
                 ]
             },
@@ -116,15 +122,21 @@
                 "en": ""
             },
             "type": {
-                "name": "enum",
+                "name": "lenum",
                 "values": [
                     {
                         "key": "YES",
-                        "label": ""
+                        "label": {
+                            "en": "Yes",
+                            "de": "Ja"
+                        }
                     },
                     {
                         "key": "NO",
-                        "label": ""
+                        "label": {
+                            "en": "No",
+                            "de": "Nein"
+                        }
                     }
                 ]
             },
@@ -139,15 +151,21 @@
                 "en": ""
             },
             "type": {
-                "name": "enum",
+                "name": "lenum",
                 "values": [
                     {
                         "key": "YES",
-                        "label": ""
+                        "label": {
+                            "en": "Yes",
+                            "de": "Ja"
+                        }
                     },
                     {
                         "key": "NO",
-                        "label": ""
+                        "label": {
+                            "en": "No",
+                            "de": "Nein"
+                        }
                     }
                 ]
             },
@@ -189,23 +207,35 @@
                 "en": ""
             },
             "type": {
-                "name": "enum",
+                "name": "lenum",
                 "values": [
                     {
                         "key": "M",
-                        "label": ""
+                        "label": {
+                            "en": "male",
+                            "de": "Herren"
+                        }
                     },
                     {
                         "key": "W",
-                        "label": ""
+                        "label": {
+                            "en": "female",
+                            "de": "Damen"
+                        }
                     },
                     {
                         "key": "U",
-                        "label": ""
+                        "label": {
+                            "en": "unisex",
+                            "de": "Unisex"
+                        }
                     },
                     {
                         "key": "K",
-                        "label": ""
+                        "label": {
+                            "en": "kids",
+                            "de": "Kinder"
+                        }
                     }
                 ]
             },
@@ -220,15 +250,21 @@
                 "en": ""
             },
             "type": {
-                "name": "enum",
+                "name": "lenum",
                 "values": [
                     {
                         "key": "YES",
-                        "label": ""
+                        "label": {
+                            "en": "Yes",
+                            "de": "Ja"
+                        }
                     },
                     {
                         "key": "NO",
-                        "label": ""
+                        "label": {
+                            "en": "No",
+                            "de": "Nein"
+                        }
                     }
                 ]
             },
@@ -243,15 +279,21 @@
                 "en": ""
             },
             "type": {
-                "name": "enum",
+                "name": "lenum",
                 "values": [
                     {
                         "key": "YES",
-                        "label": ""
+                        "label": {
+                            "en": "Yes",
+                            "de": "Ja"
+                        }
                     },
                     {
                         "key": "NO",
-                        "label": ""
+                        "label": {
+                            "en": "No",
+                            "de": "Nein"
+                        }
                     }
                 ]
             },
