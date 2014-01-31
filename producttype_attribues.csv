@@ -2,7 +2,6 @@ name,type,attributeConstraint,isRequired,isSearchable,label.de,label.en,enumKey,
 uid,text,Unique,true,,UID,,,,,,SingleLine,true
 approved,enum,None,true,false,ist freigegeben,,YES,,Yes,Ja,,true
 ,,,,,,,NO,,No,Nein,,
-variantDescription,ltext,None,false,false,Beschreibung,,,,,,MultiLine,true
 size,text,CombinationUnique,true,false,Größe,,,,,,SingleLine,true
 colorCode,text,CombinationUnique,true,false,Farbcode,,,,,,SingleLine,true
 colorCodeName,ltext,None,true,false,Farbbezeichnung,,,,,,SingleLine,true
