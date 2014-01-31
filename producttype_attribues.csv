@@ -1,0 +1,24 @@
+name,type,attributeConstraint,isRequired,isSearchable,label.de,label.en,enumKey,enumLabel,enumLabel.en,enumLabel.de,textInputHint,isVariant
+uid,text,Unique,true,,UID,,,,,,SingleLine,true
+approved,enum,None,true,false,ist freigegeben,,YES,,Yes,Ja,,true
+,,,,,,,NO,,No,Nein,,
+variantDescription,ltext,None,false,false,Beschreibung,,,,,,MultiLine,true
+size,text,CombinationUnique,true,false,Größe,,,,,,SingleLine,true
+colorCode,text,CombinationUnique,true,false,Farbcode,,,,,,SingleLine,true
+colorCodeName,ltext,None,true,false,Farbbezeichnung,,,,,,SingleLine,true
+codeFilterColor,text,None,false,false,Filterfarbcode,,,,,,SingleLine,true
+codeFilterColorName,ltext,None,false,false,Filterfarbbezeichnung,,,,,,SingleLine,true
+restricted,enum,None,true,false,Verkaufbar,,YES,,Yes,Ja,,
+,,,,,,,NO,,No,Nein,,
+saleableOnStock,enum,None,false,false,Verkaufbar ohne Bestand,,YES,,Yes,Ja,,
+,,,,,,,NO,,No,Nein,,
+maxOrderQuantity,number,SameForAll,false,false,max. Bestellmenge,,,,,,SingleLine,true
+ean,text,SameForAll,false,false,EAN,,,,,,SingleLine,true
+gender,enum,Unique,true,false,Geschlecht,,M,,male,Herren,,true
+,,,,,,,W,,female,Damen,,
+,,,,,,,U,,unisex,Unisex,,
+,,,,,,,K,,kids,Kinder,,
+security,enum,Unique,false,false,für Kinder unter 3 Jahren,,YES,,Yes,Ja,,true
+,,,,,,,NO,,No,Nein,,
+new,enum,Unique,false,false,Neues Produkt,,YES,,Yes,Ja,,true
+,,,,,,,NO,,No,Nein,,
