@@ -1,0 +1,263 @@
+{
+    "name": "clothing",
+    "description": "Clothing",
+    "attributes": [
+        {
+            "name": "uid",
+            "label": {
+                "de": "UID",
+                "en": ""
+            },
+            "type": {
+                "name": "text"
+            },
+            "attributeConstraint": "Unique",
+            "isRequired": true,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "approved",
+            "label": {
+                "de": "ist freigegeben",
+                "en": ""
+            },
+            "type": {
+                "name": "enum",
+                "values": [
+                    {
+                        "key": "YES",
+                        "label": ""
+                    },
+                    {
+                        "key": "NO",
+                        "label": ""
+                    }
+                ]
+            },
+            "attributeConstraint": "None",
+            "isRequired": true,
+            "isSearchable": false
+        },
+        {
+            "name": "size",
+            "label": {
+                "de": "Größe",
+                "en": ""
+            },
+            "type": {
+                "name": "text"
+            },
+            "attributeConstraint": "CombinationUnique",
+            "isRequired": true,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "colorCode",
+            "label": {
+                "de": "Farbcode",
+                "en": ""
+            },
+            "type": {
+                "name": "text"
+            },
+            "attributeConstraint": "CombinationUnique",
+            "isRequired": true,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "colorCodeName",
+            "label": {
+                "de": "Farbbezeichnung",
+                "en": ""
+            },
+            "type": {
+                "name": "ltext"
+            },
+            "attributeConstraint": "None",
+            "isRequired": true,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "codeFilterColor",
+            "label": {
+                "de": "Filterfarbcode",
+                "en": ""
+            },
+            "type": {
+                "name": "text"
+            },
+            "attributeConstraint": "None",
+            "isRequired": false,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "codeFilterColorName",
+            "label": {
+                "de": "Filterfarbbezeichnung",
+                "en": ""
+            },
+            "type": {
+                "name": "ltext"
+            },
+            "attributeConstraint": "None",
+            "isRequired": false,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "restricted",
+            "label": {
+                "de": "Verkaufbar",
+                "en": ""
+            },
+            "type": {
+                "name": "enum",
+                "values": [
+                    {
+                        "key": "YES",
+                        "label": ""
+                    },
+                    {
+                        "key": "NO",
+                        "label": ""
+                    }
+                ]
+            },
+            "attributeConstraint": "None",
+            "isRequired": true,
+            "isSearchable": false
+        },
+        {
+            "name": "saleableOnStock",
+            "label": {
+                "de": "Verkaufbar ohne Bestand",
+                "en": ""
+            },
+            "type": {
+                "name": "enum",
+                "values": [
+                    {
+                        "key": "YES",
+                        "label": ""
+                    },
+                    {
+                        "key": "NO",
+                        "label": ""
+                    }
+                ]
+            },
+            "attributeConstraint": "None",
+            "isRequired": false,
+            "isSearchable": false
+        },
+        {
+            "name": "maxOrderQuantity",
+            "label": {
+                "de": "max. Bestellmenge",
+                "en": ""
+            },
+            "type": {
+                "name": "number"
+            },
+            "attributeConstraint": "SameForAll",
+            "isRequired": false,
+            "isSearchable": false
+        },
+        {
+            "name": "ean",
+            "label": {
+                "de": "EAN",
+                "en": ""
+            },
+            "type": {
+                "name": "text"
+            },
+            "attributeConstraint": "SameForAll",
+            "isRequired": false,
+            "isSearchable": false,
+            "inputHint": "SingleLine"
+        },
+        {
+            "name": "gender",
+            "label": {
+                "de": "Geschlecht",
+                "en": ""
+            },
+            "type": {
+                "name": "enum",
+                "values": [
+                    {
+                        "key": "M",
+                        "label": ""
+                    },
+                    {
+                        "key": "W",
+                        "label": ""
+                    },
+                    {
+                        "key": "U",
+                        "label": ""
+                    },
+                    {
+                        "key": "K",
+                        "label": ""
+                    }
+                ]
+            },
+            "attributeConstraint": "Unique",
+            "isRequired": true,
+            "isSearchable": false
+        },
+        {
+            "name": "security",
+            "label": {
+                "de": "für Kinder unter 3 Jahren",
+                "en": ""
+            },
+            "type": {
+                "name": "enum",
+                "values": [
+                    {
+                        "key": "YES",
+                        "label": ""
+                    },
+                    {
+                        "key": "NO",
+                        "label": ""
+                    }
+                ]
+            },
+            "attributeConstraint": "Unique",
+            "isRequired": false,
+            "isSearchable": false
+        },
+        {
+            "name": "new",
+            "label": {
+                "de": "Neues Produkt",
+                "en": ""
+            },
+            "type": {
+                "name": "enum",
+                "values": [
+                    {
+                        "key": "YES",
+                        "label": ""
+                    },
+                    {
+                        "key": "NO",
+                        "label": ""
+                    }
+                ]
+            },
+            "attributeConstraint": "Unique",
+            "isRequired": false,
+            "isSearchable": false
+        }
+    ]
+}
