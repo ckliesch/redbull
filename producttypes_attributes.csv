@@ -11,13 +11,13 @@ restricted,lenum,None,true,false,Verkaufbar,,YES,,Yes,Ja,,
 ,,,,,,,NO,,No,Nein,,
 saleableOnStock,lenum,None,false,false,Verkaufbar ohne Bestand,,YES,,Yes,Ja,,
 ,,,,,,,NO,,No,Nein,,
-maxOrderQuantity,number,SameForAll,false,false,max. Bestellmenge,,,,,,SingleLine,true
-ean,text,SameForAll,false,false,EAN,,,,,,SingleLine,true
+maxOrderQuantity,number,None,false,false,max. Bestellmenge,,,,,,SingleLine,true
+ean,text,None,false,false,EAN,,,,,,SingleLine,true
 gender,lenum,Unique,true,false,Geschlecht,,M,,male,Herren,,true
 ,,,,,,,W,,female,Damen,,
 ,,,,,,,U,,unisex,Unisex,,
 ,,,,,,,K,,kids,Kinder,,
-security,lenum,Unique,false,false,für Kinder unter 3 Jahren,,YES,,Yes,Ja,,true
+security,lenum,None,false,false,für Kinder unter 3 Jahren,,YES,,Yes,Ja,,true
 ,,,,,,,NO,,No,Nein,,
-new,lenum,Unique,false,false,Neues Produkt,,YES,,Yes,Ja,,true
+new,lenum,None,false,false,Neues Produkt,,YES,,Yes,Ja,,true
 ,,,,,,,NO,,No,Nein,,

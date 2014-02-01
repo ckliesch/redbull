@@ -195,7 +195,7 @@
             "type": {
                 "name": "text"
             },
-            "attributeConstraint": "SameForAll",
+            "attributeConstraint": "None",
             "isRequired": false,
             "isSearchable": false,
             "inputHint": "SingleLine"
