@@ -1,23 +1,23 @@
-name,type,attributeConstraint,isRequired,isSearchable,label.de,label.en,enumKey,enumLabel,enumLabel.en,enumLabel.de,textInputHint,isVariant
-uid,text,Unique,true,,UID,,,,,,SingleLine,true
-approved,lenum,None,true,false,ist freigegeben,,YES,,Yes,Ja,,true
-,,,,,,,NO,,No,Nein,,
-size,text,CombinationUnique,true,false,Größe,,,,,,SingleLine,true
-colorCode,text,CombinationUnique,true,false,Farbcode,,,,,,SingleLine,true
-colorCodeName,ltext,None,true,false,Farbbezeichnung,,,,,,SingleLine,true
-codeFilterColor,text,None,false,false,Filterfarbcode,,,,,,SingleLine,true
-codeFilterColorName,ltext,None,false,false,Filterfarbbezeichnung,,,,,,SingleLine,true
-restricted,lenum,None,true,false,Verkaufbar,,YES,,Yes,Ja,,
-,,,,,,,NO,,No,Nein,,
-saleableOnStock,lenum,None,false,false,Verkaufbar ohne Bestand,,YES,,Yes,Ja,,
-,,,,,,,NO,,No,Nein,,
-maxOrderQuantity,number,None,false,false,max. Bestellmenge,,,,,,SingleLine,true
-ean,text,None,false,false,EAN,,,,,,SingleLine,true
-gender,lenum,Unique,true,false,Geschlecht,,M,,male,Herren,,true
-,,,,,,,W,,female,Damen,,
-,,,,,,,U,,unisex,Unisex,,
-,,,,,,,K,,kids,Kinder,,
-security,lenum,None,false,false,für Kinder unter 3 Jahren,,YES,,Yes,Ja,,true
-,,,,,,,NO,,No,Nein,,
-new,lenum,None,false,false,Neues Produkt,,YES,,Yes,Ja,,true
-,,,,,,,NO,,No,Nein,,
+"name","type","attributeConstraint","isRequired","isSearchable","label.de","label.en","enumKey","enumLabel","enumLabel.en","enumLabel.de","textInputHint","isVariant"
+"uid","text","Unique","true",,"UID",,,,,,"SingleLine","true"
+"approved","lenum","None","true","false","ist freigegeben",,"YES",,"Yes","Ja",,"true"
+,,,,,,,"NO",,"No","Nein",,
+"size","text","None","true","false","Größe",,,,,,"SingleLine","true"
+"colorCode","text","None","true","false","Farbcode",,,,,,"SingleLine","true"
+"colorCodeName","ltext","None","true","false","Farbbezeichnung",,,,,,"SingleLine","true"
+"codeFilterColor","text","None","false","false","Filterfarbcode",,,,,,"SingleLine","true"
+"codeFilterColorName","ltext","None","false","false","Filterfarbbezeichnung",,,,,,"SingleLine","true"
+"restricted","lenum","None","true","false","Verkaufbar",,"YES",,"Yes","Ja",,
+,,,,,,,"NO",,"No","Nein",,
+"saleableOnStock","lenum","None","false","false","Verkaufbar ohne Bestand",,"YES",,"Yes","Ja",,
+,,,,,,,"NO",,"No","Nein",,
+"maxOrderQuantity","number","None","false","false","max. Bestellmenge",,,,,,"SingleLine","true"
+"ean","text","None","false","false","EAN",,,,,,"SingleLine","true"
+"gender","lenum","None","true","false","Geschlecht",,"M",,"male","Herren",,"true"
+,,,,,,,"W",,"female","Damen",,
+,,,,,,,"U",,"unisex","Unisex",,
+,,,,,,,"K",,"kids","Kinder",,
+"security","lenum","None","false","false","für Kinder unter 3 Jahren",,"YES",,"Yes","Ja",,"true"
+,,,,,,,"NO",,"No","Nein",,
+"new","lenum","None","false","false","Neues Produkt",,"YES",,"Yes","Ja",,"true"
+,,,,,,,"NO",,"No","Nein",,
