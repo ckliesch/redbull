@@ -19,7 +19,7 @@ See [HTTP API Tutorial](http://www.commercetools.de/dev/http-api-tutorial.html) 
 * use HTTP API to create types
 
 ```bash
-curl -X POST -H "Authorization: [token]" https://api.sphere.io/redbull/product-types \
+curl -X POST -H "Authorization: Bearer [token]" https://api.sphere.io/redbull/product-types \
 	-d @product-type-clothing.json
 ```
 
@@ -27,5 +27,5 @@ curl -X POST -H "Authorization: [token]" https://api.sphere.io/redbull/product-t
 * import products from CSV using [sphere-node-product-csv-sync
 ](https://github.com/sphereio/sphere-node-product-csv-sync)
 ```bash
-node lib/run.js --projectKey KEY --clientId ID --clientSecret secret --csv products.csv
+node lib/run.js import --projectKey KEY --clientId ID --clientSecret secret -l de --csv products.csv
 ```
